@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tilemap_Piso
+    uniqueID: 4016447619
+    locked: 0
+  - name: Tilemap_Limite
+    uniqueID: 3050342543
+    locked: 0
+  - name: Tilemap_Arboles
+    uniqueID: 2009174821
+    locked: 0
+  - name: Tilemap_Casa
+    uniqueID: 324470413
+    locked: 0
+  - name: Tilemap_Props
+    uniqueID: 1165617539
+    locked: 0
+  - name: Personaje
+    uniqueID: 669708859
+    locked: 0
