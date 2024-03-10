@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InventaroSlot : MonoBehaviour
 {
+    public int Index { set; get; }
+
     // Start is called before the first frame update
     void Start()
     {

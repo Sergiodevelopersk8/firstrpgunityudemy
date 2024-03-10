@@ -1,18 +1,28 @@
+using Assets.Scripts.Inventario;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventario : MonoBehaviour
+
+/*lo hacemos Singleton*/
+
+public class Inventario : Singleton<Inventario>
 {
-    // Start is called before the first frame update
-    void Start()
+
+
+
+    [SerializeField] private int numeroDeSlots;
+    public int NumerosdeSlot => numeroDeSlots;
+
+    [Header ("Items")]
+    [SerializeField] private InventarioItem[] itemsInventario;
+
+
+    private void Start()
     {
-        
+        itemsInventario = new InventarioItem[numeroDeSlots];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }

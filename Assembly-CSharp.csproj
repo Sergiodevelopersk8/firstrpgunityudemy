@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Personaje\PersonajeMana.cs" />
+    <Compile Include="Assets\Scripts\Inventario\InventaroSlot.cs" />
+    <Compile Include="Assets\Scripts\Inventario\Inventario.cs" />
     <Compile Include="Assets\Scripts\Personaje\PersonajeAnimaciones.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Personaje\VidaBase.cs" />
@@ -64,14 +66,16 @@
     <Compile Include="Assets\Scripts\Personaje\Personaje.cs" />
     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
     <Compile Include="Assets\Scripts\Personaje\PersonajeStats.cs" />
+    <Compile Include="Assets\Scripts\Inventario\InventarioUI.cs" />
     <Compile Include="Assets\Scripts\Personaje\PersonajeExperencia.cs" />
     <Compile Include="Assets\Scripts\Extras\AtributoButton.cs" />
     <Compile Include="Assets\Scripts\Personaje\PersonajeMovimiento.cs" />
     <Compile Include="Assets\Scripts\Extras\ZonaConfiner.cs" />
     <Compile Include="Assets\Scripts\Personaje\PersonajeVida.cs" />
-    <Compile Include="Assets\Scripts\Inventario\InventaroSlot.cs" />
-    <Compile Include="Assets\Scripts\Inventario\Inventario.cs" />
-    <Compile Include="Assets\Scripts\Inventario\InventarioUI.cs" />
+    <Compile Include="Assets\Scripts\Inventario\InventarioItem.cs" />
+    <Compile Include="Assets\Scripts\Inventario\Items\ItemPocionVida.cs" />
+    <Compile Include="Assets\Scripts\Inventario\Items\ItemPocionMana.cs" />
+    <Compile Include="Assets\Scripts\Inventario\ItemPorAgregar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
