@@ -42,5 +42,22 @@ namespace Assets.Scripts.Inventario
         }
 
 
+        public virtual bool UsarItem()
+        {
+            return true;
+        }
+
+
+        public virtual bool EquiparItem()
+        {
+            return true;
+        }
+
+        public virtual bool RemoverItem()
+        {
+            return true;
+        }
+
+
     }
 }
