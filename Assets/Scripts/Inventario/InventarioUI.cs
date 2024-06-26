@@ -1,8 +1,9 @@
+using Assets.Scripts.Inventario;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventarioUI : MonoBehaviour
+public class InventarioUI : Singleton<InventarioUI>
 {
     [SerializeField] private InventaroSlot slotPrefab;
     [SerializeField] private Transform contenedor;
@@ -28,6 +29,23 @@ private void InicializarInventario()
 
 
     }
+
+    public void DibujarItemEnInventario(InventarioItem itemPorAdd, int cantidad, int itemIndex)
+    {
+        InventaroSlot slot = slotsDisponibles[itemIndex];
+
+        if (itemPorAdd != null)
+        {
+            slot.ActivarSloutUI(true);
+            slot.ActualizarSlot(itemPorAdd, cantidad);
+        }
+        else
+        {
+            slot.ActivarSloutUI(false);
+        }
+    }
+
+
 
 
 }
